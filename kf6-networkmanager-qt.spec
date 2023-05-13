@@ -15,11 +15,14 @@ BuildRequires: cmake(ECM)
 BuildRequires: cmake(Qt6GuiTools)
 BuildRequires: cmake(Qt6DBusTools)
 BuildRequires: cmake(Qt6Concurrent)
-BUildRequires: cmake(Qt6Test)
+BuildRequires: cmake(Qt6Test)
 BuildRequires: cmake(Qt6Gui)
+BuildRequires: cmake(Qt6Network)
 BuildRequires: doxygen
 BuildRequires: cmake(Qt6ToolsTools)
 BuildRequires: cmake(Qt6)
+BuildRequires: pkgconfig(gio-2.0)
+BuildRequires: pkgconfig(libnm) >= 1.4.0
 Requires: %{libname} = %{EVRD}
 
 %description
