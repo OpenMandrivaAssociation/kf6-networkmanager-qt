@@ -1,6 +1,6 @@
 %define libname %mklibname KF6NetworkManagerQt
 %define devname %mklibname KF6NetworkManagerQt -d
-%define git 20230525
+%define git 20230527
 
 Name: kf6-networkmanager-qt
 Version: 5.240.0
@@ -40,6 +40,8 @@ Qt wrapper for the NetworkManager DBus API
 Summary: Development files for %{name}
 Group: Development/C
 Requires: %{libname} = %{EVRD}
+Requires: pkgconfig(libnm) >= 1.4.0
+Requires: pkgconfig(gio-2.0)
 
 %description -n %{devname}
 Development files (Headers etc.) for %{name}.
