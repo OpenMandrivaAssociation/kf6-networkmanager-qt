@@ -1,6 +1,6 @@
 %define libname %mklibname KF6NetworkManagerQt
 %define devname %mklibname KF6NetworkManagerQt -d
-%define git 20230918
+%define git 20230924
 
 Name: kf6-networkmanager-qt
 Version: 5.240.0
@@ -72,3 +72,4 @@ Qt wrapper for the NetworkManager DBus API
 
 %files -n %{libname}
 %{_libdir}/libKF6NetworkManagerQt.so*
+%{_qtdir}/qml/org/kde/networkmanager
