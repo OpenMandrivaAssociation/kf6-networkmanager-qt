@@ -12,6 +12,7 @@ License: CC0-1.0 LGPL-2.0+ LGPL-2.1 LGPL-3.0
 Group: System/Libraries
 BuildRequires: cmake
 BuildRequires: cmake(ECM)
+BuildRequires: cmake(Qt6Qml)
 BuildRequires: cmake(Qt6GuiTools)
 BuildRequires: cmake(Qt6DBusTools)
 BuildRequires: cmake(Qt6Concurrent)
