@@ -1,6 +1,6 @@
 %define libname %mklibname KF6NetworkManagerQt
 %define devname %mklibname KF6NetworkManagerQt -d
-%define git 20230927
+%define git 20231004
 
 Name: kf6-networkmanager-qt
 Version: 5.240.0
