@@ -7,7 +7,7 @@
 
 Name: kf6-networkmanager-qt
 Version: 6.12.0
-Release: %{?git:0.%{git}.}1
+Release: %{?git:0.%{git}.}2
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/networkmanager-qt/-/archive/master/networkmanager-qt-master.tar.bz2#/networkmanager-qt-%{git}.tar.bz2
 %else
