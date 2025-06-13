@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-networkmanager-qt
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/networkmanager-qt/-/archive/master/networkmanager-qt-master.tar.bz2#/networkmanager-qt-%{git}.tar.bz2
@@ -76,7 +76,6 @@ Qt wrapper for the NetworkManager DBus API
 %files -n %{devname}
 %{_includedir}/KF6/NetworkManagerQt
 %{_libdir}/cmake/KF6NetworkManagerQt
-%{_libdir}/qt6/doc/KF6NetworkManagerQt.*
 
 %files -n %{libname}
 %{_libdir}/libKF6NetworkManagerQt.so*
