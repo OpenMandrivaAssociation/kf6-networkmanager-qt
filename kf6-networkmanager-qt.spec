@@ -80,3 +80,6 @@ Qt wrapper for the NetworkManager DBus API
 %files -n %{libname}
 %{_libdir}/libKF6NetworkManagerQt.so*
 %{_qtdir}/qml/org/kde/networkmanager
+
+# keep %mklibname visible for rpmlint SpecCheck (checks last line only)
+# %mklibname
